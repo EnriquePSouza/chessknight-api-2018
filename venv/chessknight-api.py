@@ -7,8 +7,25 @@ CORS(app)
 api = Api(app)
 
 #######################################################################################################################
-# Starting from the square informed, I walk 5 columns positively and then 5 columns of negative form,
-# for each column I verify some varieties of possibilities in the lines as per rule below:
+############################################## Explaining the Code ####################################################
+#######################################################################################################################
+#
+# It is for Turn One:
+#
+# Starting from the square informed, this function advance 2 columns positively and then 2 columns negatively,
+# for each column this function verify some varieties of possibilities in the lines as per rule below:
+#
+# Advance one column positive and negative and advance two lines positive and negative.
+#
+# Advance two columns positive and negative and advance one line positive and negative.
+#
+# It is for Turn Two:
+#
+# Starting from the square informed, this function advance 5 columns positively and then 5 columns negatively,
+# for each column this function verify some varieties of possibilities in the lines as per rule below:
+#
+# Zero (initial column) is equal to the column reported by the web application and
+# the Zero line (initial line) is equal to the line reported by the web application.
 #
 # In column 0 the line advances by 2 in 2 starting from 0 and ending in 5.
 #
@@ -22,9 +39,10 @@ api = Api(app)
 #
 # Advance on these lines in a positive and negative way.
 #
-# Zero (initial column) is equal to the column reported by the web application and
-# the Zero line (initial line) is equal to the line reported by the web application.
 #######################################################################################################################
+#######################################################################################################################
+#######################################################################################################################
+
 class Chess(Resource):
 
     def get(self, squareId):
