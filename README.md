@@ -1,5 +1,5 @@
 # Chess Knight API
-![Python Badge](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![Flask Badge](https://img.shields.io/badge/Flask-1.0.2-green.svg) ![Flask Badge](https://img.shields.io/badge/Flask_CORS-3.0.4-green.svg)![Flask Badge](https://img.shields.io/badge/Flask_RESTful-0.3.6-green.svg)
+![Python Badge](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![Flask Badge](https://img.shields.io/badge/Flask-1.0.2-green.svg) ![Flask Badge](https://img.shields.io/badge/Flask_CORS-3.0.4-green.svg)![Flask Badge](https://img.shields.io/badge/Flask_RESTful-0.3.6-green.svg)![Building Badge](https://img.shields.io/badge/building-passing-brightgreen.svg)
 
 ## How to execute
 
