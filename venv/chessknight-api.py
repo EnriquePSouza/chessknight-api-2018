@@ -6,6 +6,12 @@ app = Flask(__name__)
 CORS(app)
 api = Api(app)
 
+class Home(Resource):
+
+    def get(self):
+
+        return "ChessKnight-api --version 1.0"
+
 #######################################################################################################################
 ############################################## Explaining the Code ####################################################
 #######################################################################################################################
@@ -227,6 +233,8 @@ class Chess(Resource):
         return response
 
 # Api route declaration
+api.add_resource(Home, "/")
 api.add_resource(Chess, "/chess/<string:squareId>")
+
 
 app.run(debug=True)
