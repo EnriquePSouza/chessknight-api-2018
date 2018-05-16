@@ -20,7 +20,8 @@ chessknight-api.py
 ```
 In case of some problems prevents the system from running, do this:
 ```
-Create a new project, paste the file 'chessknight-api.py' into the venv folder or create a new one, copy and paste the contents of this file to the new one.
+Create a new project, paste the file 'chessknight-api.py' into the venv folder or create a new one, 
+copy and paste the contents of this file to the new one.
 
 After this access the Project interpreter as described above and install the following items:
 Flask, Flask-Cors and Flask-RESTful
